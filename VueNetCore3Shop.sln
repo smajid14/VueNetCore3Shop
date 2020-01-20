@@ -11,11 +11,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfaraData", "InfaraData", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraIOC", "InfraIOC", "{0E8DCDA5-A323-4367-B9A2-4C35C01EC861}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presention", "Presention", "{8834FE71-7E26-409F-9119-0E42FC97C61F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presention", "Presention", "{7D6992F7-8C39-417B-850D-0E1FDE1EC697}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VueSPATemplate", "Presention\VueSPATemplate.csproj", "{2AC377A9-6D43-4123-8220-7012DD890393}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AC377A9-6D43-4123-8220-7012DD890393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC377A9-6D43-4123-8220-7012DD890393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC377A9-6D43-4123-8220-7012DD890393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC377A9-6D43-4123-8220-7012DD890393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AC377A9-6D43-4123-8220-7012DD890393} = {7D6992F7-8C39-417B-850D-0E1FDE1EC697}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24770E06-F96A-4DF1-8396-FC37485D6042}

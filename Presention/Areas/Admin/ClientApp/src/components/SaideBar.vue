@@ -144,7 +144,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31"></a>
                             <div class="dropdown-menu dropdown-menu-left user-dd animated">
-                                <a class="dropdown-item" href="javascript:void(0)">  پروفایل من  <i class="ti-user m-r-5 m-l-5"></i></a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"><span class="persianfont">   پروفایل من</span></i></a>
                                 <a class="dropdown-item" href="javascript:void(0)">My Balance<i class="ti-wallet m-r-5 m-l-5"></i> </a>
                                 <a class="dropdown-item" href="javascript:void(0)">Inbox<i class="ti-email m-r-5 m-l-5"></i> </a>
                                 <div class="dropdown-divider"></div>
@@ -210,12 +210,21 @@
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav" class="p-t-30">
-                        <li class="sidebar-item"><router-link to="about" class="sidebar-link waves-effect waves-dark sidebar-link"  aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">  مدیریت دسته کالاها123</span></router-link></li>  
+                      <li class="sidebar-item">
+                        <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">مدیریت دسته کالاها </span></a>
+                        <ul aria-expanded="false" class="collapse  first-level">
+                          <li class="sidebar-item"><a href="form-basic.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> مدیریت دسته اصلی </span></a></li>
+                          <li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> مدیریت دسته سطح اول </span></a></li>
+                          <li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> مدیریت دسته سطح دوم </span></a></li>
+                        </ul>
+
+                      </li>  
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="charts.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Charts</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="widgets.html" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Widgets</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="tables.html" aria-expanded="false"><i class="mdi mdi-border-inside"></i><span class="hide-menu">Tables</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="grid.html" aria-expanded="false"><i class="mdi mdi-blur-linear"></i><span class="hide-menu">Full Width</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Forms </span></a>
+                        <li class="sidebar-item">
+                          <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Forms </span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
                                 <li class="sidebar-item"><a href="form-basic.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Form Basic </span></a></li>
                                 <li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Form Wizard </span></a></li>

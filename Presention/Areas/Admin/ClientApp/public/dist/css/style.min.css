@@ -118,6 +118,7 @@ section {
     bottom: 0;
     width: 100%;
     background-color: #EEEEEE;
+    z-index:999;
 
     color: black;
     text-align: center;
@@ -5239,11 +5240,14 @@ input[type=submit].btn-block {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 1.25rem
+    padding: 1.25rem;
+    border:1px solid #eee;
+    
 }
 
 .card-title {
-    margin-bottom: 0.75rem
+    margin-bottom: 0.75rem;
+   color:white;
 }
 
 .card-subtitle {
@@ -5266,7 +5270,7 @@ input[type=submit].btn-block {
 .card-header {
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: #27A9E3;
     border-bottom: 0px solid transparent
 }
 

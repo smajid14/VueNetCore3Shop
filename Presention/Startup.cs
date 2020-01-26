@@ -65,7 +65,7 @@ namespace VueSPATemplate
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                       endpoints.MapControllerRoute(
                      name: "areas",
-                     pattern: "{area}/{controller}/{did?}/{action=Index}/{id?}");
+                     pattern: "{area}/{controller}/{action}/{id?}");
             });
 
             app.UseSpa(spa =>

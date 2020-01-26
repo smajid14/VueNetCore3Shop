@@ -9,14 +9,18 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "core-js": "^2.6.5",
     "css-loader": "^3.4.2",
+    "datatables.net": "^1.10.20",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
-    "vue-script2": "^2.1.0"
+    "vue-script2": "^2.1.0",
+    "vue-sweetalert2": "^3.0.1",
+    "vuelidate": "^0.7.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.6.0",
@@ -32,6 +36,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.1",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "vuelidation": "^1.1.0"
   }
 }
